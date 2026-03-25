@@ -32,6 +32,16 @@ Open terminal and login to MariaDB:
 
 mysql -u root -p
 ```
+## if you are using RDS database 
+install client to connect database to server 
+```
+sudo apt update
+sudo apt install mysql-client
+```
+```
+mysql -h <endpoint> -u <username> -p
+```
+
 
 Enter the root password when prompted.
 
